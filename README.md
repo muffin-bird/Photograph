@@ -1,2 +1,1 @@
-# Photograph
-Creating WireFrame
+
