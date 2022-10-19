@@ -4,7 +4,7 @@
 
 ✅　Photo  
 
-Single-Photo  
+✅　Single-Photo  
 
 ✅　About  
 
