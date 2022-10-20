@@ -10,6 +10,6 @@
 
 ✅　News  
 
-Single-News  
+✅　Single-News  
 
-Contact  
+✅　Contact  
