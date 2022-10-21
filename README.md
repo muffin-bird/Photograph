@@ -1,5 +1,5 @@
 # PhotoSite
-## WireFrame
+## Prototype
 ✅　Home  
 
 ✅　Photo  
