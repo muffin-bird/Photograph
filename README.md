@@ -14,4 +14,4 @@
 
 ✅　Contact  
 
-## Responsive  
+## Responsive(930〜)  
