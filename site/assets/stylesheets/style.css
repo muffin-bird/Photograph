@@ -1,4 +1,9 @@
+.inner {
+  color: black;
+}
+
 body {
   font-family: "Noto Sans JP", sans-serif;
   font-size: 14px;
-}/*# sourceMappingURL=style.css.map */
+}
+/*# sourceMappingURL=style.css.map */
