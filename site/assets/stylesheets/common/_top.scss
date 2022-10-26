@@ -1,0 +1,14 @@
+.container {
+  padding: 60px 60px 60px 250px;
+
+  .section {
+    display: flex;
+    justify-content: center;
+
+    img {
+      width: 935px;
+      height: auto;
+      max-width: 100%;
+    }
+  }
+}

@@ -1,9 +1,40 @@
-.inner {
-  color: black;
+.fixed {
+  position: fixed;
+  left: 60px;
+  top: 60px;
+}
+.fixed .sd {
+  display: flex;
+  flex-direction: column;
+}
+.fixed .sd .logo {
+  margin-bottom: 80px;
+}
+.fixed .sd .menu {
+  margin-bottom: 50px;
+}
+.fixed .sd .menu li {
+  margin-bottom: 25px;
+}
+.fixed .sd .socialBtn {
+  margin-bottom: 100px;
+}
+
+.container {
+  padding: 60px 60px 60px 250px;
+}
+.container .section {
+  display: flex;
+}
+.container .section img {
+  width: 935px;
+  height: auto;
+  max-width: 100%;
 }
 
 body {
   font-family: "Noto Sans JP", sans-serif;
   font-size: 14px;
+  color: #333;
 }
 /*# sourceMappingURL=style.css.map */
