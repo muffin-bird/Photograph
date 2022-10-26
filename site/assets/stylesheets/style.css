@@ -25,6 +25,7 @@
 }
 .container .section {
   display: flex;
+  justify-content: center;
 }
 .container .section img {
   width: 935px;
