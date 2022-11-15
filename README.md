@@ -30,4 +30,6 @@
 ✅　Contact  
 
 ## Coding  
-✅　Home 
+✅　Home  
+
+✅　Photo
