@@ -1,0 +1,29 @@
+.container {
+  padding: 60px 60px 60px 250px;
+
+  .photoList {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .box {
+      width: 32%;
+      margin-right: 2%;
+      margin-bottom: 2%;
+
+      &:nth-child(3n) {
+        margin-right: 0;
+      }
+
+      .photoLink {
+        display: block;
+
+        .photo {
+          width: 100%;
+          height: auto;
+          max-width: 100%;
+        }
+      }
+    }
+  }
+}
