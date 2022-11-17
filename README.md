@@ -14,22 +14,11 @@
 
 ✅　Contact  
 
-## Responsive(930〜)  
-✅　Home  
-
-✅　Photo  
-
-✅　Single-Photo  
-
-✅　About  
-
-✅　News  
-
-✅　Single-News  
-
-✅　Contact  
-
 ## Coding  
 ✅　Home  
 
 ✅　Photo
+
+✅　Single-Photo  
+
+## Responsive(930〜)  
