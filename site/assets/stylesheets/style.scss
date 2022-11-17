@@ -1,9 +1,20 @@
 @use "common/header";
 @use "common/top";
 @use "common/photography";
+@use "common/single-photography";
 
 body {
   font-family: 'Noto Sans JP', sans-serif;
   font-size: 14px;
   color: #222;
+
+  .img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+  }
+
+  .photoLink {
+    display: block;
+  }
 }

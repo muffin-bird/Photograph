@@ -49,18 +49,44 @@
 .container .photoList .box:nth-child(3n) {
   margin-right: 0;
 }
-.container .photoList .box .photoLink {
-  display: block;
+
+.container {
+  padding: 60px 60px 60px 250px;
 }
-.container .photoList .box .photoLink .photo {
+.container .caption .ttl {
+  font-size: 15px;
+}
+.container .caption .captionImg {
   width: 100%;
   height: auto;
   max-width: 100%;
+  margin: 30px 0;
+}
+.container .singlePhotoList {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.container .singlePhotoList .singleBox {
+  width: 23.5%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+.container .singlePhotoList .singleBox:nth-child(4n) {
+  margin-right: 0;
 }
 
 body {
   font-family: "Noto Sans JP", sans-serif;
   font-size: 14px;
   color: #222;
+}
+body .img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+body .photoLink {
+  display: block;
 }
 /*# sourceMappingURL=style.css.map */
