@@ -3,12 +3,12 @@
 @use "pages/photography";
 @use "pages/single-photography";
 @use "pages/about";
+@use "pages/news";
 
 body {
   font-family: 'Noto Sans JP', sans-serif;
   font-size: 14px;
   color: #222;
-  line-height: 2;
 
   .img {
     width: 100%;
@@ -16,7 +16,7 @@ body {
     max-width: 100%;
   }
 
-  .photoLink {
+  .link {
     display: block;
   }
 }

@@ -38,7 +38,6 @@
 }
 .container .photoList {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
 }
 .container .photoList .box {
@@ -64,7 +63,6 @@
 }
 .container .singlePhotoList {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
 }
 .container .singlePhotoList .singleBox {
@@ -83,24 +81,50 @@
   width: 60%;
 }
 .container .profile .description {
+  line-height: 1.8;
   margin-top: 2%;
 }
 .container .profile .description .jp {
   margin: 3% 0;
 }
 
+.container {
+  padding: 60px 60px 60px 250px;
+}
+.container .cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container .cards .card {
+  width: 48%;
+  margin-right: 4%;
+  margin-bottom: 4%;
+}
+.container .cards .card:nth-child(2n) {
+  margin-right: 0;
+}
+.container .cards .card .meta {
+  margin-top: 2%;
+}
+.container .cards .card .meta .data {
+  font-size: 12px;
+  color: #666666;
+}
+.container .cards .card .meta .title {
+  margin: 1% 0 1.5% 0;
+}
+
 body {
   font-family: "Noto Sans JP", sans-serif;
   font-size: 14px;
   color: #222;
-  line-height: 2;
 }
 body .img {
   width: 100%;
   height: auto;
   max-width: 100%;
 }
-body .photoLink {
+body .link {
   display: block;
 }
 /*# sourceMappingURL=style.css.map */
