@@ -21,4 +21,6 @@
 
 ✅　Single-Photo  
 
+✅　About 
+
 ## Responsive(930〜)  
