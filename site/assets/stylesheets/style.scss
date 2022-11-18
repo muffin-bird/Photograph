@@ -2,11 +2,13 @@
 @use "common/top";
 @use "common/photography";
 @use "common/single-photography";
+@use "common/about";
 
 body {
   font-family: 'Noto Sans JP', sans-serif;
   font-size: 14px;
   color: #222;
+  line-height: 2;
 
   .img {
     width: 100%;
