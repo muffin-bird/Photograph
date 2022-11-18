@@ -1,8 +1,8 @@
 @use "common/header";
-@use "common/top";
-@use "common/photography";
-@use "common/single-photography";
-@use "common/about";
+@use "pages/top";
+@use "pages/photography";
+@use "pages/single-photography";
+@use "pages/about";
 
 body {
   font-family: 'Noto Sans JP', sans-serif;
