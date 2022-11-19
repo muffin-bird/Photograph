@@ -23,4 +23,6 @@
 
 ✅　About 
 
+✅　News  
+
 ## Responsive(930〜)  
