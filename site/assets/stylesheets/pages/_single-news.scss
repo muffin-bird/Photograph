@@ -1,3 +1,23 @@
 .container {
   padding: 60px 60px 60px 250px;
+
+  .section {
+    display: flex;
+    justify-content: center;
+
+    .content {
+      .post {
+        .mt {
+          .heading {
+            font-size: 20px;
+          }
+
+          .time {
+            font-size: 12px;
+            color: #666666;
+          }
+        }
+      }
+    }
+  }
 }
