@@ -25,4 +25,6 @@
 
 ✅　News  
 
+✅　Single-News 
+
 ## Responsive(930〜)  
