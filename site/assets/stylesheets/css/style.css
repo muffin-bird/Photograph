@@ -114,6 +114,10 @@
   margin: 1% 0 1.5% 0;
 }
 
+.container {
+  padding: 60px 60px 60px 250px;
+}
+
 body {
   font-family: "Noto Sans JP", sans-serif;
   font-size: 14px;
