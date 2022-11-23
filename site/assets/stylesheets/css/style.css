@@ -136,6 +136,15 @@
   margin-bottom: 4%;
 }
 
+.container {
+  padding: 60px 60px 60px 250px;
+}
+.container .contact .mail {
+  display: block;
+  text-decoration: underline;
+  margin-bottom: 1.5%;
+}
+
 body {
   font-family: "Noto Sans JP", sans-serif;
   font-size: 14px;
