@@ -25,6 +25,10 @@
 
 ✅　News  
 
-✅　Single-News 
+✅　Single-News  
+
+✅　Contact  
+
+## Sass
 
 ## Responsive(930〜)  
