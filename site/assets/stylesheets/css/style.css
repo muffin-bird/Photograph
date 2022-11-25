@@ -23,60 +23,53 @@
 .container {
   padding: 60px 60px 60px 250px;
 }
-.container .section {
+
+.section {
   display: flex;
   justify-content: center;
 }
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
 .container .section img {
   width: 935px;
   height: auto;
   max-width: 100%;
 }
 
-.container {
-  padding: 60px 60px 60px 250px;
-}
-.container .photoList {
-  display: flex;
-  flex-wrap: wrap;
-}
-.container .photoList .box {
+.container .boxes .box {
   width: 32%;
   margin-right: 2%;
   margin-bottom: 2%;
 }
-.container .photoList .box:nth-child(3n) {
+.container .boxes .box:nth-child(3n) {
   margin-right: 0;
 }
 
-.container {
-  padding: 60px 60px 60px 250px;
-}
 .container .caption .ttl {
   font-size: 15px;
 }
 .container .caption .captionImg {
-  width: 100%;
-  height: auto;
-  max-width: 100%;
   margin: 2% 0 4% 0;
 }
-.container .singlePhotoList {
-  display: flex;
-  flex-wrap: wrap;
-}
-.container .singlePhotoList .singleBox {
+.container .boxes .singleBox {
   width: 23.5%;
   margin-right: 2%;
   margin-bottom: 2%;
 }
-.container .singlePhotoList .singleBox:nth-child(4n) {
+.container .boxes .singleBox:nth-child(4n) {
   margin-right: 0;
 }
 
-.container {
-  padding: 60px 60px 60px 250px;
-}
 .container .profile {
   width: 60%;
 }
@@ -88,39 +81,25 @@
   margin: 3% 0;
 }
 
-.container {
-  padding: 60px 60px 60px 250px;
-}
-.container .cards {
-  display: flex;
-  flex-wrap: wrap;
-}
-.container .cards .card {
+.container .boxes .card {
   width: 48%;
   margin-right: 4%;
   margin-bottom: 4%;
 }
-.container .cards .card:nth-child(2n) {
+.container .boxes .card:nth-child(2n) {
   margin-right: 0;
 }
-.container .cards .card .meta {
+.container .boxes .card .meta {
   margin-top: 2%;
 }
-.container .cards .card .meta .date {
+.container .boxes .card .meta .date {
   font-size: 12px;
   color: #666666;
 }
-.container .cards .card .meta .title {
+.container .boxes .card .meta .title {
   margin: 1% 0 1.5% 0;
 }
 
-.container {
-  padding: 60px 60px 60px 250px;
-}
-.container .section {
-  display: flex;
-  justify-content: center;
-}
 .container .section .content .post .headarea {
   margin-bottom: 4%;
 }
@@ -136,9 +115,6 @@
   margin-bottom: 4%;
 }
 
-.container {
-  padding: 60px 60px 60px 250px;
-}
 .container .contact .mail {
   display: block;
   text-decoration: underline;
@@ -149,11 +125,6 @@ body {
   font-family: "Noto Sans JP", sans-serif;
   font-size: 14px;
   color: #222;
-}
-body .img {
-  width: 100%;
-  height: auto;
-  max-width: 100%;
 }
 body .link {
   display: block;

@@ -1,0 +1,17 @@
+@use "mixin" as mixin;
+
+.container {
+    @include mixin.outer;
+}
+
+.section {
+    @include mixin.flexCt
+}
+
+.boxes {
+    @include mixin.flexWp
+}
+
+.img {
+    @include mixin.imgSize;
+  }

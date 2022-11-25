@@ -1,4 +1,5 @@
-@use "common/header";
+@use "config/header";
+@use "config/common";
 @use "pages/top";
 @use "pages/photography";
 @use "pages/single-photography";
@@ -12,11 +13,6 @@ body {
   font-size: 14px;
   color: #222;
 
-  .img {
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-  }
 
   .link {
     display: block;

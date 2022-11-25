@@ -1,5 +1,4 @@
 .container {
-  padding: 60px 60px 60px 250px;
 
   .caption {
     .ttl {
@@ -7,16 +6,11 @@
     }
 
     .captionImg {
-      width: 100%;
-      height: auto;
-      max-width: 100%;
       margin: 2% 0 4% 0;
     }
   }
 
-  .singlePhotoList {
-    display: flex;
-    flex-wrap: wrap;
+  .boxes {
 
     .singleBox {
       width: 23.5%;
