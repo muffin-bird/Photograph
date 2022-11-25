@@ -5,13 +5,21 @@
 }
 
 .section {
-    @include mixin.flexCt
+    @include mixin.flexCt;
 }
 
 .boxes {
-    @include mixin.flexWp
+    @include mixin.flexWp;
 }
 
 .img {
     @include mixin.imgSize;
-  }
+}
+
+.link {
+    @include mixin.mouseHv;
+}
+
+.date {
+    @include mixin.dateTxt;
+}

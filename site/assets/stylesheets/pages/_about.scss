@@ -1,15 +1,12 @@
-.container {
+.profile {
+  width: 60%;
 
-  .profile {
-    width: 60%;
+  .description {
+    margin-top: 2%;
+    line-height: 1.5em;
 
-    .description {
-      margin-top: 2%;
-      line-height: 1.5em;
-
-      .jp {
-        margin: 3% 0;
-      }
+    .jp {
+      margin: 3% 0;
     }
   }
 }

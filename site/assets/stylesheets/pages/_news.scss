@@ -1,28 +1,18 @@
-.container {
+.card {
+  width: 48%;
+  margin-right: 4%;
+  margin-bottom: 4%;
 
-  .boxes {
+  &:nth-child(2n) {
+    margin-right: 0;
+  }
 
-    .card {
-      width: 48%;
-      margin-right: 4%;
-      margin-bottom: 4%;
+  .meta {
+    margin-top: 2%;
 
-      &:nth-child(2n) {
-        margin-right: 0;
-      }
 
-      .meta {
-        margin-top: 2%;
-
-        .date {
-          font-size: 12px;
-          color: #666666;
-        }
-
-        .title {
-          margin: 1% 0 1.5% 0;
-        }
-      }
+    .title {
+      margin: 1% 0 1.5% 0;
     }
   }
 }

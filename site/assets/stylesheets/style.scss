@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 @use "config/header";
 @use "config/common";
 @use "pages/top";
@@ -12,9 +14,4 @@ body {
   font-family: 'Noto Sans JP', sans-serif;
   font-size: 14px;
   color: #222;
-
-
-  .link {
-    display: block;
-  }
 }

@@ -1,25 +1,22 @@
-.container {
-
-  .caption {
-    .ttl {
-      font-size: 15px;
-    }
-
-    .captionImg {
-      margin: 2% 0 4% 0;
-    }
+.caption {
+  .ttl {
+    font-size: 15px;
   }
 
-  .boxes {
+  .captionImg {
+    margin: 2% 0 4% 0;
+  }
+}
 
-    .singleBox {
-      width: 23.5%;
-      margin-right: 2%;
-      margin-bottom: 2%;
+.boxes {
 
-      &:nth-child(4n) {
-        margin-right: 0;
-      }
+  .singleBox {
+    width: 23.5%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+
+    &:nth-child(4n) {
+      margin-right: 0;
     }
   }
 }
