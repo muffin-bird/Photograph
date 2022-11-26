@@ -9,6 +9,7 @@
         position: static;
         left: 0;
         top: 0;
+        padding: 60px 20px 80px;
     }
 
     .hd {
@@ -24,6 +25,7 @@
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
+                margin-bottom: 30px;
             }
 
             .logo {
@@ -33,14 +35,14 @@
                     margin: 0;
                 }
             }
-    
+
             .socialBtnSp {
                 display: none;
 
                 @include mixin.mq(sp) {
                     display: block;
                 }
-            }  
+            }
         }
 
         .menu {
@@ -57,11 +59,17 @@
 
             @include mixin.mq(sp) {
                 margin-bottom: 0;
+                margin-right: 30px;
+
+                &:last-child {
+                    margin-right: 0;
+                }
             }
         }
 
         .socialBtn {
             margin-bottom: 100px;
+
             @include mixin.mq(sp) {
                 display: none;
             }

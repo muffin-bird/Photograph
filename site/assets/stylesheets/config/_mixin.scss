@@ -23,7 +23,7 @@
     transition: opacity .2s linear;
 
     &:hover {
-      opacity: .7;
+        opacity: .7;
     }
 }
 
@@ -44,4 +44,3 @@ $breakpoint: (
         @content;
     }
 }
-    

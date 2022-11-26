@@ -8,6 +8,7 @@
     position: static;
     left: 0;
     top: 0;
+    padding: 60px 20px 80px;
   }
 }
 .fixed .hd {
@@ -24,6 +25,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 30px;
   }
 }
 .fixed .hd .fx .logo {
@@ -57,6 +59,10 @@
 @media screen and (max-width: 930px) {
   .fixed .hd .menu li {
     margin-bottom: 0;
+    margin-right: 30px;
+  }
+  .fixed .hd .menu li:last-child {
+    margin-right: 0;
   }
 }
 .fixed .hd .socialBtn {
@@ -98,7 +104,7 @@
   transition: opacity 0.2s linear;
 }
 .link:hover {
-  opacity: 0.65;
+  opacity: 0.7;
 }
 
 .date {
@@ -140,7 +146,7 @@
 }
 .profile .description {
   margin-top: 2%;
-  line-height: 1.5em;
+  line-height: 1.8;
 }
 .profile .description .jp {
   margin: 3% 0;
@@ -162,19 +168,22 @@
 }
 
 .post .headarea {
-  margin-bottom: 4%;
+  margin-bottom: 3%;
 }
 .post .headarea .heading {
   font-size: 20px;
-  margin-bottom: 1.2%;
+  margin-bottom: 1%;
 }
 .post .img {
   margin-bottom: 4%;
 }
+.post .text {
+  line-height: 1.8;
+}
 
 .mail {
   text-decoration: underline;
-  margin-bottom: 1.5%;
+  margin-bottom: 20px;
 }
 
 body {
