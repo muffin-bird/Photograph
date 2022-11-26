@@ -1,3 +1,17 @@
+// Breakpoints
+
+$breakpoint: (
+    sp: 'screen and(max-width: 640px)',
+    tb: 'screen and(max-width: 930px)',
+    pc: 'screen and(min-width: 931px)'
+);
+
+@mixin mq($bp) {
+    @media #{map-get($breakpoint, $bp)} {
+        @content;
+    }
+}
+
 @mixin outer {
     padding: 60px 60px 60px 250px;
 }
@@ -30,17 +44,4 @@
 @mixin dateTxt {
     font-size: 12px;
     color: #666;
-}
-
-// Breakpoints
-
-$breakpoint: (
-    sp: 'screen and(max-width: 930px)',
-    pc: 'screen and(min-width: 931px)'
-);
-
-@mixin mq($bp) {
-    @media #{map-get($breakpoint, $bp)} {
-        @content;
-    }
 }

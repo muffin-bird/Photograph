@@ -5,23 +5,23 @@
     left: 60px;
     top: 60px;
 
-    @include mixin.mq(sp) {
+    @include mixin.mq(tb) {
         position: static;
         left: 0;
         top: 0;
-        padding: 60px 20px 80px;
+        padding: 60px 20px 70px;
     }
 
     .hd {
         display: flex;
         flex-direction: column;
 
-        @include mixin.mq(sp) {
+        @include mixin.mq(tb) {
             display: block;
         }
 
         .fx {
-            @include mixin.mq(sp) {
+            @include mixin.mq(tb) {
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
@@ -31,7 +31,7 @@
             .logo {
                 margin-bottom: 80px;
 
-                @include mixin.mq(sp) {
+                @include mixin.mq(tb) {
                     margin: 0;
                 }
             }
@@ -39,7 +39,7 @@
             .socialBtnSp {
                 display: none;
 
-                @include mixin.mq(sp) {
+                @include mixin.mq(tb) {
                     display: block;
                 }
             }
@@ -48,7 +48,7 @@
         .menu {
             margin-bottom: 50px;
 
-            @include mixin.mq(sp) {
+            @include mixin.mq(tb) {
                 display: flex;
                 margin-bottom: 0;
             }
@@ -57,7 +57,7 @@
         .menu li {
             margin-bottom: 25px;
 
-            @include mixin.mq(sp) {
+            @include mixin.mq(tb) {
                 margin-bottom: 0;
                 margin-right: 30px;
 
@@ -70,13 +70,13 @@
         .socialBtn {
             margin-bottom: 100px;
 
-            @include mixin.mq(sp) {
+            @include mixin.mq(tb) {
                 display: none;
             }
         }
 
         .copy {
-            @include mixin.mq(sp) {
+            @include mixin.mq(tb) {
                 display: none;
             }
         }
