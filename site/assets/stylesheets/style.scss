@@ -2,16 +2,4 @@
 
 @use "config/header";
 @use "config/common";
-@use "pages/top";
-@use "pages/photography";
-@use "pages/single-photography";
-@use "pages/about";
-@use "pages/news";
-@use "pages/single-news";
-@use "pages/contact";
-
-body {
-  font-family: 'Noto Sans JP', sans-serif;
-  font-size: 14px;
-  color: #222;
-}
+@use "config/main";
