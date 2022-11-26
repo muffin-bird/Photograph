@@ -3,21 +3,74 @@
   left: 60px;
   top: 60px;
 }
+@media screen and (max-width: 930px) {
+  .fixed {
+    position: static;
+    left: 0;
+    top: 0;
+  }
+}
 .fixed .hd {
   display: flex;
   flex-direction: column;
 }
-.fixed .hd .logo {
+@media screen and (max-width: 930px) {
+  .fixed .hd {
+    display: block;
+  }
+}
+@media screen and (max-width: 930px) {
+  .fixed .hd .fx {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.fixed .hd .fx .logo {
   margin-bottom: 80px;
+}
+@media screen and (max-width: 930px) {
+  .fixed .hd .fx .logo {
+    margin: 0;
+  }
+}
+.fixed .hd .fx .socialBtnSp {
+  display: none;
+}
+@media screen and (max-width: 930px) {
+  .fixed .hd .fx .socialBtnSp {
+    display: block;
+  }
 }
 .fixed .hd .menu {
   margin-bottom: 50px;
 }
+@media screen and (max-width: 930px) {
+  .fixed .hd .menu {
+    display: flex;
+    margin-bottom: 0;
+  }
+}
 .fixed .hd .menu li {
   margin-bottom: 25px;
 }
+@media screen and (max-width: 930px) {
+  .fixed .hd .menu li {
+    margin-bottom: 0;
+  }
+}
 .fixed .hd .socialBtn {
   margin-bottom: 100px;
+}
+@media screen and (max-width: 930px) {
+  .fixed .hd .socialBtn {
+    display: none;
+  }
+}
+@media screen and (max-width: 930px) {
+  .fixed .hd .copy {
+    display: none;
+  }
 }
 
 .container {

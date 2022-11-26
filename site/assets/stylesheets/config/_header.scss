@@ -1,26 +1,76 @@
+@use "mixin" as mixin;
+
 .fixed {
     position: fixed;
     left: 60px;
     top: 60px;
 
+    @include mixin.mq(sp) {
+        position: static;
+        left: 0;
+        top: 0;
+    }
+
     .hd {
         display: flex;
         flex-direction: column;
 
-        .logo {
-            margin-bottom: 80px;
+        @include mixin.mq(sp) {
+            display: block;
+        }
+
+        .fx {
+            @include mixin.mq(sp) {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .logo {
+                margin-bottom: 80px;
+
+                @include mixin.mq(sp) {
+                    margin: 0;
+                }
+            }
+    
+            .socialBtnSp {
+                display: none;
+
+                @include mixin.mq(sp) {
+                    display: block;
+                }
+            }  
         }
 
         .menu {
             margin-bottom: 50px;
+
+            @include mixin.mq(sp) {
+                display: flex;
+                margin-bottom: 0;
+            }
         }
 
         .menu li {
             margin-bottom: 25px;
+
+            @include mixin.mq(sp) {
+                margin-bottom: 0;
+            }
         }
 
         .socialBtn {
             margin-bottom: 100px;
+            @include mixin.mq(sp) {
+                display: none;
+            }
+        }
+
+        .copy {
+            @include mixin.mq(sp) {
+                display: none;
+            }
         }
     }
 

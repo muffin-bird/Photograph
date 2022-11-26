@@ -23,7 +23,7 @@
     transition: opacity .2s linear;
 
     &:hover {
-      opacity: .65;
+      opacity: .7;
     }
 }
 
@@ -31,3 +31,17 @@
     font-size: 12px;
     color: #666;
 }
+
+// Breakpoints
+
+$breakpoint: (
+    sp: 'screen and(max-width: 930px)',
+    pc: 'screen and(min-width: 931px)'
+);
+
+@mixin mq($bp) {
+    @media #{map-get($breakpoint, $bp)} {
+        @content;
+    }
+}
+    
