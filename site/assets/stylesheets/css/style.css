@@ -147,8 +147,18 @@ Photography
   margin-right: 2%;
   margin-bottom: 2%;
 }
-.box:nth-child(3n) {
-  margin-right: 0;
+@media screen and (min-width: 931px) {
+  .box:nth-child(3n) {
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 930px) {
+  .box {
+    width: 49%;
+  }
+  .box:nth-child(2n) {
+    margin-right: 0;
+  }
 }
 
 /*============================================================================== 
@@ -166,8 +176,18 @@ Single Photography
   margin-right: 2%;
   margin-bottom: 2%;
 }
-.boxes .singleBox:nth-child(4n) {
-  margin-right: 0;
+@media screen and (min-width: 931px) {
+  .boxes .singleBox:nth-child(4n) {
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 930px) {
+  .boxes .singleBox {
+    width: 49%;
+  }
+  .boxes .singleBox:nth-child(2n) {
+    margin-right: 0;
+  }
 }
 
 /*============================================================================== 

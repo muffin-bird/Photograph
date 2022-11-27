@@ -27,8 +27,19 @@ Photography
   margin-right: 2%;
   margin-bottom: 2%;
 
-  &:nth-child(3n) {
-    margin-right: 0;
+  @include mixin.mq(pc) {
+
+    &:nth-child(3n) {
+      margin-right: 0;
+    }
+  }
+
+  @include mixin.mq(tb) {
+    width: 49%;
+
+    &:nth-child(2n) {
+      margin-right: 0;
+    }
   }
 }
 
@@ -52,8 +63,19 @@ Single Photography
     margin-right: 2%;
     margin-bottom: 2%;
 
-    &:nth-child(4n) {
-      margin-right: 0;
+    @include mixin.mq(pc) {
+
+      &:nth-child(4n) {
+        margin-right: 0;
+      }
+    }
+
+    @include mixin.mq(tb) {
+      width: 49%;
+
+      &:nth-child(2n) {
+        margin-right: 0;
+      }
     }
   }
 }
