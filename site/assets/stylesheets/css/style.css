@@ -193,15 +193,22 @@ Single Photography
 /*============================================================================== 
 About
 ==============================================================================*/
-.profile {
-  width: 60%;
+@media screen and (min-width: 931px) {
+  .profile {
+    width: 600px;
+  }
 }
 .profile .description {
-  margin-top: 2%;
+  margin-top: 5%;
   line-height: 1.8;
 }
 .profile .description .jp {
-  margin: 3% 0;
+  margin: 4% 0;
+}
+@media screen and (max-width: 930px) {
+  .profile {
+    width: 100%;
+  }
 }
 
 /*==============================================================================  
