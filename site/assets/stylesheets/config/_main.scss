@@ -8,6 +8,7 @@ body {
   font-family: 'Noto Sans JP', sans-serif;
   font-size: 14px;
   color: #222;
+  line-height: 1.6;
 }
 
 /*============================================================================== 
@@ -120,12 +121,15 @@ News
   }
 
   .meta {
-    margin-top: 2%;
-
+    margin-top: 12px;
 
     .title {
-      margin: 1% 0 1.5% 0;
+      margin: 0.5% 0 2% 0;
     }
+  }
+
+  @include mixin.mq(sp) {
+    font-size: 12px;
   }
 }
 
