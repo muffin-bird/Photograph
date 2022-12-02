@@ -266,12 +266,31 @@ Single News
 .post .text {
   line-height: 1.8;
 }
+@media screen and (max-width: 930px) {
+  .post {
+    width: 100%;
+  }
+}
 
-/* ============================================================================
+/*==============================================================================
 Contact
 ==============================================================================*/
 .mail {
   text-decoration: underline;
   margin-bottom: 20px;
+}
+
+/*============================================================================== 
+Footer
+==============================================================================*/
+@media screen and (min-width: 931px) {
+  .footer {
+    display: none;
+  }
+}
+@media screen and (max-width: 930px) {
+  .footer {
+    padding: 60px 20px 70px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
