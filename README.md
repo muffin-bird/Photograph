@@ -9,7 +9,8 @@
 ・Font  
 
 ## WP  
-・file name  
+・File name  
+・Tempalte Tag  
 
 
 ## Site Performance
