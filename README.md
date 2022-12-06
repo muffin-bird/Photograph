@@ -1,6 +1,6 @@
 # PhotoSite  
 
-## JavaScript　　
+## Vanilla JS　　
 ・random
 
 ## SASS  
