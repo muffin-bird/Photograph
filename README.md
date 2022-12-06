@@ -1,5 +1,8 @@
 # PhotoSite  
 
+## jQuery　　　　
+・random
+
 ## Vanilla JS　　
 ・random
 
