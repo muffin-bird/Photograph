@@ -1,10 +1,9 @@
 # PhotoSite  
 
-## jQuery　　　　
-・random
-
 ## Vanilla JS　　
-・random
+・Random  
+・Cheat sheet
+
 
 ## SASS  
 ・Margin  
