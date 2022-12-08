@@ -2,7 +2,8 @@
 
 ## Vanilla JS　　
 ・Random  
-・Cheat sheet
+・Cheat sheet  
+・Fade-n
 
 
 ## SASS  
