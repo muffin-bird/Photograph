@@ -1,5 +1,6 @@
+/*
 $(function () {
-  var setElm = $('#thumblist img'),
+  var setElm = $('#boxList img'),
     delaySpeed = 100,
     fadeSpeed = 500;
 
@@ -20,3 +21,18 @@ $(function () {
     }
   });
 });
+*/
+
+let setElm = document.querySelectorAll('#boxList img'),
+  delaySpeed = 100,
+  fadeSpeed = 500;
+
+window.addEventListener('load', function () { // イベント
+  randomShow();
+  function randomShow() { // 関数宣言
+    let elmLength = setElm.length, // 画像数
+      randomSet = Math.floor(Math.random() * elmLength);
+    console.log(randomSet);
+  }
+});
+

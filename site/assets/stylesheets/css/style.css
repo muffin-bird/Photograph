@@ -153,24 +153,21 @@ Home
 /*============================================================================== 
 Photography
 ==============================================================================*/
-#thumblist .boxes .box {
+#boxList .box {
   width: 32%;
   margin-right: 2%;
   margin-bottom: 2%;
 }
-#thumblist .boxes .box .link .img {
-  display: none;
-}
 @media screen and (min-width: 931px) {
-  #thumblist .boxes .box:nth-child(3n) {
+  #boxList .box:nth-child(3n) {
     margin-right: 0;
   }
 }
 @media screen and (max-width: 930px) {
-  #thumblist .boxes .box {
+  #boxList .box {
     width: 49%;
   }
-  #thumblist .boxes .box:nth-child(2n) {
+  #boxList .box:nth-child(2n) {
     margin-right: 0;
   }
 }
