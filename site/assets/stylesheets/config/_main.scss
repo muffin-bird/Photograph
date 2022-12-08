@@ -25,23 +25,33 @@ Home
 Photography
 ==============================================================================*/
 
-.box {
-  width: 32%;
-  margin-right: 2%;
-  margin-bottom: 2%;
+#thumblist {
+  .boxes {
+    .box {
+      width: 32%;
+      margin-right: 2%;
+      margin-bottom: 2%;
 
-  @include mixin.mq(pc) {
+      .link {
+        .img {
+          display: none;
+        }
+      }
 
-    &:nth-child(3n) {
-      margin-right: 0;
-    }
-  }
+      @include mixin.mq(pc) {
 
-  @include mixin.mq(tb) {
-    width: 49%;
+        &:nth-child(3n) {
+          margin-right: 0;
+        }
+      }
 
-    &:nth-child(2n) {
-      margin-right: 0;
+      @include mixin.mq(tb) {
+        width: 49%;
+
+        &:nth-child(2n) {
+          margin-right: 0;
+        }
+      }
     }
   }
 }
