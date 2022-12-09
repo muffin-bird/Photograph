@@ -23,9 +23,9 @@ $(function () {
 });
 */
 
-let setElm = document.querySelectorAll('#boxList img'),
-  delaySpeed = 100,
-  fadeSpeed = 1500;
+let setElm = document.querySelectorAll('#boxList .img'),
+  delaySpeed = 500,
+  fadeSpeed = 1000;
 
 window.addEventListener('load', function () { // イベント
   randomShow();
@@ -33,7 +33,8 @@ window.addEventListener('load', function () { // イベント
     let elmLength = setElm.length, // 画像数
       randomSet = Math.floor(Math.random() * elmLength); // ランダム数
 
-    setElm[randomSet].style.cssText = 'display: block;' // CSS指定
+    setElm[randomSet].style.cssText = 'display: block;'; // CSS指定
+    console.log(setElm[randomSet].style.cssText);
     setElm[randomSet].animate([{opacity: 0}, {opacity: 1}], fadeSpeed); // フェードイン
     setElm = Array.from(setElm); // 配列に変換
     setElm.splice(randomSet, 1); // 要素の取り除き
