@@ -31,7 +31,9 @@ Photography
     margin-right: 2%;
     margin-bottom: 2%;
 
-    .img {}
+    .img {
+      display: none;
+    }
 
     @include mixin.mq(pc) {
 
