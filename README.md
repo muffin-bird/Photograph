@@ -3,7 +3,7 @@
 ## SASS  
 ・Margin  
 ・Size  
-・Font  
+・FontChange  
 
 ## WP  
 ・File name  
