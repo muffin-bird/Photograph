@@ -27,9 +27,9 @@ Photography
 
 #boxList {
   .box {
-    width: 32%;
-    margin-right: 2%;
-    margin-bottom: 2%;
+    width: 30%;
+    margin-right: 5%;
+    margin-bottom: 5%;
 
     .img {
       display: none;
@@ -43,7 +43,7 @@ Photography
     }
 
     @include mixin.mq(tb) {
-      width: 49%;
+      width: 47.5%;
 
       &:nth-child(2n) {
         margin-right: 0;
@@ -62,15 +62,15 @@ Single Photography
   }
 
   .captionImg {
-    margin: 2% 0 4% 0;
+    margin: 2% 0 5% 0;
   }
 }
 
 .boxes {
   .singleBox {
-    width: 23.5%;
-    margin-right: 2%;
-    margin-bottom: 2%;
+    width: 22%;
+    margin-right: 4%;
+    margin-bottom: 4%;
 
     @include mixin.mq(pc) {
 
@@ -80,7 +80,7 @@ Single Photography
     }
 
     @include mixin.mq(tb) {
-      width: 49%;
+      width: 48%;
 
       &:nth-child(2n) {
         margin-right: 0;
