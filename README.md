@@ -1,10 +1,5 @@
 # PhotoSite  
 
-## SASS  
-・Margin  
-・Size  
-・FontChange  
-
 ## WP  
 ・File name  
 ・Tempalte Tag  
