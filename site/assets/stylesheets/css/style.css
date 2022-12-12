@@ -1,6 +1,13 @@
 @font-face {
-  font-family: "NotoSansJP";
-  src: url("../../fonts/NotoSansJP-Regular.otf") format("opentype");
+  font-family: "MartelSans";
+  src: url("../../fonts/MartelSans-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "yugothic";
+  src: url("../../fonts/yugothic-medium.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -135,7 +142,7 @@ Header
 Base Style
 -------------------------------------------------------------------------------*/
 body {
-  font-family: "NotoSansJP", sans-serif;
+  font-family: "MartelSans", "yugothic", sans-serif;
   font-size: 14px;
   color: #222;
   line-height: 1.6;
