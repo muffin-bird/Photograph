@@ -27,20 +27,20 @@ Photography
 
 #boxList {
   .box {
-    width: 30%;
-    margin-right: 5%;
-    margin-bottom: 5%;
+    width: 22%;
+    margin-right: 4%;
+    margin-bottom: 4%;
     visibility: hidden;
 
     @include mixin.mq(pc) {
 
-      &:nth-child(3n) {
+      &:nth-child(4n) {
         margin-right: 0;
       }
     }
 
     @include mixin.mq(tb) {
-      width: 47.5%;
+      width: 48%;
 
       &:nth-child(2n) {
         margin-right: 0;

@@ -161,19 +161,19 @@ Home
 Photography
 ==============================================================================*/
 #boxList .box {
-  width: 30%;
-  margin-right: 5%;
-  margin-bottom: 5%;
+  width: 22%;
+  margin-right: 4%;
+  margin-bottom: 4%;
   visibility: hidden;
 }
 @media screen and (min-width: 931px) {
-  #boxList .box:nth-child(3n) {
+  #boxList .box:nth-child(4n) {
     margin-right: 0;
   }
 }
 @media screen and (max-width: 930px) {
   #boxList .box {
-    width: 47.5%;
+    width: 48%;
   }
   #boxList .box:nth-child(2n) {
     margin-right: 0;
