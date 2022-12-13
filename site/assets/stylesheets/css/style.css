@@ -164,9 +164,7 @@ Photography
   width: 30%;
   margin-right: 5%;
   margin-bottom: 5%;
-}
-#boxList .box .img {
-  display: none;
+  visibility: hidden;
 }
 @media screen and (min-width: 931px) {
   #boxList .box:nth-child(3n) {

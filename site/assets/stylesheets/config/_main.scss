@@ -30,10 +30,7 @@ Photography
     width: 30%;
     margin-right: 5%;
     margin-bottom: 5%;
-
-    .img {
-      display: none;
-    }
+    visibility: hidden;
 
     @include mixin.mq(pc) {
 
