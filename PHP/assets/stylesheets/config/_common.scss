@@ -1,0 +1,29 @@
+@use "mixin" as mixin;
+
+.container {
+    @include mixin.outer;
+
+    @include mixin.mq(tb) {
+        padding: 0 20px;
+    }
+}
+
+.section {
+    @include mixin.flexCt;
+}
+
+.boxes {
+    @include mixin.flexWp;
+}
+
+.img {
+    @include mixin.imgSize;
+}
+
+.link {
+    @include mixin.mouseHv;
+}
+
+.date {
+    @include mixin.dateTxt;
+}

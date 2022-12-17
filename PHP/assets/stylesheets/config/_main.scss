@@ -1,0 +1,194 @@
+@use "mixin" as mixin;
+
+/*-------------------------------------------------------------------------------
+Base Style
+-------------------------------------------------------------------------------*/
+
+body {
+  font-family: 'MartelSans', 'yugothic', sans-serif;
+  font-size: 14px;
+  color: #222;
+  line-height: 1.6;
+}
+
+/*============================================================================== 
+Home
+==============================================================================*/
+
+.topImg {
+  @include mixin.mq(pc) {
+    width: 935px;
+  }
+}
+
+/*============================================================================== 
+Photography
+==============================================================================*/
+
+#boxList {
+  .box {
+    width: 22%;
+    margin-right: 4%;
+    margin-bottom: 4%;
+    visibility: hidden;
+
+    @include mixin.mq(pc) {
+
+      &:nth-child(4n) {
+        margin-right: 0;
+      }
+    }
+
+    @include mixin.mq(tb) {
+      width: 48%;
+
+      &:nth-child(2n) {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+/*============================================================================== 
+Single Photography
+==============================================================================*/
+
+.caption {
+  .ttl {
+    font-size: 15px;
+  }
+
+  .captionImg {
+    margin: 2% 0 5% 0;
+  }
+}
+
+.boxes {
+  .singleBox {
+    width: 22%;
+    margin-right: 4%;
+    margin-bottom: 4%;
+
+    @include mixin.mq(pc) {
+
+      &:nth-child(4n) {
+        margin-right: 0;
+      }
+    }
+
+    @include mixin.mq(tb) {
+      width: 48%;
+
+      &:nth-child(2n) {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+/*============================================================================== 
+About
+==============================================================================*/
+
+.profile {
+
+  @include mixin.mq(pc) {
+    width: 600px;
+  }
+
+  .description {
+    margin-top: 5%;
+    line-height: 1.8;
+
+    .jp {
+      margin: 4% 0;
+    }
+  }
+
+  @include mixin.mq(tb) {
+    width: 100%;
+  }
+
+  @include mixin.mq(sp) {
+    font-size: 12px;
+  }
+}
+
+/*==============================================================================  
+News
+==============================================================================*/
+
+.card {
+  width: 48%;
+  margin-right: 4%;
+  margin-bottom: 4%;
+
+  &:nth-child(2n) {
+    margin-right: 0;
+  }
+
+  .meta {
+    margin-top: 12px;
+
+    .title {
+      margin: 0.5% 0 1% 0;
+    }
+  }
+
+  @include mixin.mq(sp) {
+    font-size: 12px;
+  }
+}
+
+/*============================================================================== 
+Single News
+==============================================================================*/
+
+.post {
+
+  .headarea {
+    margin-bottom: 4%;
+
+    .heading {
+      font-size: 20px;
+      margin-bottom: 1%;
+    }
+  }
+
+  .img {
+    margin-bottom: 5%;
+  }
+
+  .text {
+    line-height: 1.8;
+  }
+
+  @include mixin.mq(tb) {
+    width: 100%;
+  }
+}
+
+/*==============================================================================
+Contact
+==============================================================================*/
+
+.mail {
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+/*============================================================================== 
+Footer
+==============================================================================*/
+
+.footer {
+
+  @include mixin.mq(pc) {
+    display: none;
+  }
+
+  @include mixin.mq(tb) {
+    padding: 60px 20px 70px;
+  }
+
+}
