@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ja">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,8 +8,8 @@
     <link rel="stylesheet" href="./assets/stylesheets/css/destyle.css">
     <link rel="stylesheet" href="./assets/stylesheets/css/style.css">
     <title>name</title>
+    <?php wp_head(); ?>
 </head>
-
 <body>
     <header class="fixed">
         <div class="hd">
@@ -42,28 +41,3 @@
             </div>
         </div>
     </header>
-    <div class="container">
-        <section class="section">
-            <article class="post">
-                <div class="headarea">
-                    <h2 class="heading">ホームページ開設</h2>
-                    <time class="date">2022.11.19</time>
-                </div>
-                <img src="assets/img/news.jpg" alt="thumbnail" class="img">
-                <p class="text">
-                    ここにテキストが入ります。ここにテキストが入ります。<br>
-                    ここにテキストが入ります。ここにテキストが入ります。<br>
-                    ここにテキストが入ります。ここにテキストが入ります。<br>
-                </p>
-            </article>
-        </section>
-    </div>
-    <footer class="footer">
-        <div class="copy">
-            <small class="copyright">© Name</small>
-        </div>
-    </footer>
-    <script src="./assets/js/main.js"></script>
-</body>
-
-</html>
