@@ -1,10 +1,7 @@
 # PhotoSite  
 
 ## WP  
-・Local  
-・File name  
-・Include Tag  
-・Tempalte Tag  
+・Tempalte Tag Path  
 
 ## Site Performance
 ・Meta  
