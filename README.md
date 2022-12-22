@@ -2,7 +2,7 @@
 
 ## SASS
 ・Line spacing  
-・ine length　　
+・Line length　　
 
 ## WP  
 ・Tempalte Tag Path  
