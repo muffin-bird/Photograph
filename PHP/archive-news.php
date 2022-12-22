@@ -4,7 +4,7 @@
             <div class="boxes">
                 <article class="card">
                     <a href="single-news.html" class="link">
-                        <img src="assets/img/news.jpg" alt="thumbnail" class="img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/news.jpg" alt="thumbnail" class="img">
                         <div class="meta">
                             <time class="date">2022.11.19</time>
                             <h2 class="title">ホームページ開設</h2>
@@ -14,7 +14,7 @@
                 </article>
                 <article class="card">
                     <a href="single-news.html" class="link">
-                        <img src="assets/img/news.jpg" alt="thumbnail" class="img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/news.jpg" alt="thumbnail" class="img">
                         <div class="meta">
                             <time class="date">2022.11.19</time>
                             <h2 class="title">ホームページ開設</h2>
@@ -24,7 +24,7 @@
                 </article>
                 <article class="card">
                     <a href="single-news.html" class="link">
-                        <img src="assets/img/news.jpg" alt="thumbnail" class="img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/news.jpg" alt="thumbnail" class="img">
                         <div class="meta">
                             <time class="date">2022.11.19</time>
                             <h2 class="title">ホームページ開設</h2>

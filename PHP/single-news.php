@@ -6,7 +6,7 @@
                     <h2 class="heading">ホームページ開設</h2>
                     <time class="date">2022.11.19</time>
                 </div>
-                <img src="assets/img/news.jpg" alt="thumbnail" class="img">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/news.jpg" alt="thumbnail" class="img">
                 <p class="text">
                     ここにテキストが入ります。ここにテキストが入ります。<br>
                     ここにテキストが入ります。ここにテキストが入ります。<br>

@@ -2,7 +2,7 @@
     <div class="container">
         <section class="section_secondary">
             <div class="profile">
-                <img src="assets/img/about.jpg" alt="thumbnail" class="img">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/about.jpg" alt="thumbnail" class="img">
                 <div class="description">
                     <h2>Name | Text</h2>
                     <div class="jp">

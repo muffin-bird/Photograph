@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/stylesheets/css/destyle.css">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>//assets/stylesheets/css/style.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/stylesheets/css/style.css">
     <title>name</title>
     <?php wp_head(); ?>
 </head>
@@ -19,7 +19,7 @@
                 </h1>
                 <div class="socialBtnSp">
                     <a href="" target="_blank" class="link">
-                        <img src="assets/img/instagram.svg" width="18px" height="18px" alt="Instagram">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/instagram.svg" width="18px" height="18px" alt="Instagram">
                     </a>
                 </div>
             </div>
@@ -33,7 +33,7 @@
             </nav>
             <div class="socialBtn">
                 <a href="" target="_blank" class="link">
-                    <img src="assets/img/instagram.svg" width="15px" height="15px" alt="Instagram">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/instagram.svg" width="15px" height="15px" alt="Instagram">
                 </a>
             </div>
             <div class="copy">
