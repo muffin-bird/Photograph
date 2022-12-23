@@ -1,11 +1,8 @@
 # PhotoSite  
 
-## SASS
-・Line spacing  
-・Line length　　
-
 ## WP  
-・Tempalte Tag Path  
+・archive.php (WP_Query)
+・Js Path  
 ・FTP
 
 ## Site Performance
