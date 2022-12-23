@@ -1,7 +1,7 @@
 # PhotoSite  
 
 ## WP  
-・archive.php (WP_Query)
+・Archive.php (WP_Query)  
 ・Js Path  
 ・FTP
 
