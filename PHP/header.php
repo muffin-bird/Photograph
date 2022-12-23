@@ -15,7 +15,7 @@
         <div class="hd">
             <div class="fx">
                 <h1 class="logo">
-                    <a href="index.html" class="link">Name</a>
+                    <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="link">Name</a>
                 </h1>
                 <div class="socialBtnSp">
                     <a href="" target="_blank" class="link">
@@ -26,9 +26,9 @@
             <nav>
                 <ul class="menu">
                     <li class="photography"><a href="photography.html" class="link">Photography</a></li>
-                    <li class="about"><a href="about.html" class="link">About</a></li>
+                    <li class="about"><a href="<?php echo esc_url( home_url( '/about/' ) ) ?>" class="link">About</a></li>
                     <li class="news"><a href="news.html" class="link">News</a></li>
-                    <li class="contact"><a href="contact.html" class="link">Contact</a></li>
+                    <li class="contact"><a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>" class="link">Contact</a></li>
                 </ul>
             </nav>
             <div class="socialBtn">
