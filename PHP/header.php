@@ -25,9 +25,9 @@
             </div>
             <nav>
                 <ul class="menu">
-                    <li class="photography"><a href="photography.html" class="link">Photography</a></li>
+                    <li class="photography"><a href="<?php echo esc_url( home_url( '/photography/' ) ) ?>" class="link">Photography</a></li>
                     <li class="about"><a href="<?php echo esc_url( home_url( '/about/' ) ) ?>" class="link">About</a></li>
-                    <li class="news"><a href="news.html" class="link">News</a></li>
+                    <li class="news"><a href="<?php echo esc_url( home_url( '/news/' ) ) ?>" class="link">News</a></li>
                     <li class="contact"><a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>" class="link">Contact</a></li>
                 </ul>
             </nav>
