@@ -6,11 +6,11 @@
                 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
                 <article class="card">
                     <a href="<?php the_permalink(); ?>" class="link">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/news.jpg" alt="thumbnail" class="img">
+                        <?php the_post_thumbnail(); ?>
                         <div class="meta">
-                            <time class="date">2022.11.19</time>
-                            <h2 class="title">ホームページ開設</h2>
-                            <p class="txt">ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが...</p>
+                            <time class="date" datetime="<?php the_time('Y.m.d'); ?>"><?php the_time('Y.m.d'); ?></time>
+                            <h2 class="title"><?php the_title(); ?></h2>
+                            <p class="txt"><?php the_content(); ?></p>
                         </div>
                     </a>
                 </article>

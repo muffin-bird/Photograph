@@ -1,5 +1,9 @@
 @use "mixin" as mixin;
 
+img {
+    @include mixin.imgSize;
+}
+
 .container {
     @include mixin.outer;
 
@@ -14,10 +18,6 @@
 
 .boxes {
     @include mixin.flexWp;
-}
-
-.img {
-    @include mixin.imgSize;
 }
 
 .link {
