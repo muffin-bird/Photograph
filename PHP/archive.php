@@ -6,7 +6,7 @@
                 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
                 <article class="card">
                     <a href="<?php the_permalink(); ?>" class="link">
-                        <?php the_post_thumbnail(); ?>
+                        <span class="thumbnail"><?php the_post_thumbnail(); ?></span>
                         <div class="meta">
                             <time class="date" datetime="<?php the_time('Y.m.d'); ?>"><?php the_time('Y.m.d'); ?></time>
                             <h2 class="title"><?php the_title(); ?></h2>

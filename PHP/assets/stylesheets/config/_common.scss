@@ -1,9 +1,5 @@
 @use "mixin" as mixin;
 
-img {
-    @include mixin.imgSize;
-}
-
 .container {
     @include mixin.outer;
 
@@ -22,6 +18,10 @@ img {
 
 .link {
     @include mixin.mouseHv;
+}
+
+.img {
+    @include mixin.imgSize;
 }
 
 .date {

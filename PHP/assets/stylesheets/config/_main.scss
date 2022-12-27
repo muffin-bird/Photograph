@@ -127,6 +127,13 @@ News
     margin-right: 0;
   }
 
+  .thumbnail img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 3 / 2;
+  }
+
   .meta {
     margin-top: 12px;
 
