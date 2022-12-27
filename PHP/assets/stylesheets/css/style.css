@@ -138,6 +138,13 @@ Header
   color: #666;
 }
 
+.thumbnail img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 3/2;
+}
+
 /*-------------------------------------------------------------------------------
 Base Style
 -------------------------------------------------------------------------------*/
@@ -246,12 +253,6 @@ News
 .card:nth-child(2n) {
   margin-right: 0;
 }
-.card .thumbnail img {
-  width: 100%;
-  max-width: 100%;
-  height: auto;
-  aspect-ratio: 3/2;
-}
 .card .meta {
   margin-top: 12px;
 }
@@ -274,10 +275,13 @@ Single News
   font-size: 20px;
   margin-bottom: 1%;
 }
-.post .img {
-  margin-bottom: 5%;
+@media screen and (min-width: 931px) {
+  .post .single img {
+    max-width: 720px;
+  }
 }
 .post .text {
+  margin-top: 5%;
   line-height: 1.8;
 }
 @media screen and (max-width: 930px) {

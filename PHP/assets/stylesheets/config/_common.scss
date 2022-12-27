@@ -27,3 +27,10 @@
 .date {
     @include mixin.dateTxt;
 }
+
+.thumbnail {
+    img {
+        @include mixin.imgSize;
+        aspect-ratio: 3/2;
+    }
+}
