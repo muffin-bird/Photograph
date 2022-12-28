@@ -1,6 +1,7 @@
 # PhotoSite  
 
 ## WP  
+・except()  
 ・Post Custom  
 ・Js Path  
 ・FTP
