@@ -2,7 +2,7 @@
 
 ## WP  
 ・except  
-・Post Custom  
+・PostCustom  
 ・Js Path  
 ・FTP
 
