@@ -1,7 +1,7 @@
 # PhotoSite  
 
 ## WP  
-・excet  
+・excepot  
 ・PostCustom  
 ・Js Path  
 ・FTP
